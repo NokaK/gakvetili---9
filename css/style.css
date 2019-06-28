@@ -1,0 +1,66 @@
+.container {
+	max-width: 1170px;
+	width:100%;
+	margin: 0 auto;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo img{
+	height: 50px;
+}
+.navbar-ul{
+	display: flex;
+}
+.navbar-li{
+	margin-left: 10px;
+}
+.main-container{
+	background-color: #E6E6E6;
+	padding: 20px 0;
+}
+.bg {
+	background-image: url('https://ekaelbakidze.files.wordpress.com/2017/09/21984247_839335362910421_2053018545_n1.jpg?w=980&h=980&crop=1');
+	width:200px;
+	height:460px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:  center ;
+	margin-bottom: 20px;
+}
+.bg1 {
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCWViuHtu-Gl9-9GtXehYXAelAYKUyr5XbteArQFAbIl-j5IDR');
+	width:200px;
+	height:460px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:  center ;
+	margin-bottom: 20px;
+}
+.bg2 {
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw_2RL_o5auEv0oJUX4p9xhCW9_C1EZpCNwu7xUKqD6UWwAHLN');
+	width:200px;
+	height:460px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:  center ;
+	margin-bottom: 20px;
+}
+.bg3 {
+	background-image: url('http://mediamall.ge/uploads/data/10.12.17./mesi12.jpg');
+	width:200px;
+	height:460px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:  center ;
+	margin-bottom: 20px;
+}
+.flex-column{
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+}
